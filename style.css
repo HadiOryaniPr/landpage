@@ -120,8 +120,7 @@
     color: #111;
     margin-top: 10px;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    transition:0.4s;
+    transition: 0.4s;
     color: #8badf7;
     
 }
@@ -143,11 +142,14 @@
     list-style: none;
 }
 
+
 .social li a {
     display: inline-block;
     margin-right: 10px;
-    transform: scale(0.5);
-    transition: 0.4s;
+    
+    transition: 0.5s;
+    
+    
 }
 
 .social li a:hover {
