@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title>Hadi Oryani</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="showcase">
+    <header>
+      <h2 class="logo" style="color:#dfe7fd;">HadiORYANI</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="background3.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>HadiOryani</h2> 
+      <h3>This is a test</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#" title="telegram"><img src="telegram.png"></a></li>
+      <li><a href="#" title="instagram"><img src="instagram.png"></a></li>
+      <li><a href="#" title="youtube"><img src="youtube.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Web Designer</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+  </div>
+    
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+  </script>
+  
+
+
+
+
+
+  
+</body>
+
+</html>
