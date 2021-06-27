@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #feeafa;
+    background: #00000033;
 }
 
 /* container */
@@ -25,7 +25,7 @@ body {
 /* logo */
 
 .form-logo {
-    background: url(./image/logo-image.jpg) no-repeat center/cover #ffccd5;
+    background: url(./image/login-image.jpg) no-repeat center/cover #ffccd5;
     width: 100px;
     height: 100px;
     border-radius: 50%;
