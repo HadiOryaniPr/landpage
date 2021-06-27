@@ -128,6 +128,7 @@
     color: var(--overlay-color);
     
 }
+
 .text a:hover {
    letter-spacing: 5px;
 }
@@ -146,11 +147,14 @@
     list-style: none;
 }
 
+
 .social li a {
     display: inline-block;
     margin-right: 10px;
-    transform: scale(0.5);
-    transition: 0.4s;
+    
+    transition: 0.5s;
+    
+    
 }
 
 .social li a:hover {
